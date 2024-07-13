@@ -16,11 +16,6 @@ const Blog = () => {
             desc,
             tags,
             readTime,
-          }: {
-            title: string;
-            desc: string;
-            tags: string[];
-            readTime: string;
           }) => (
             <BlogCard
               key={title}
