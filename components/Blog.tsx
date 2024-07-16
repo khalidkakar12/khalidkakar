@@ -31,7 +31,7 @@ const Blog = () => {
       </div>
       <div className="flex items-center justify-center py-2 w-full">
 
-      <Button label={"See more"} href={"#blog"} />
+      <Button label={"See more"} href={"https://dev.to/khalidkhankakar"} />
       </div>
     </div>
   );
