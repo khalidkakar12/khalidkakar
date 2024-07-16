@@ -1,7 +1,7 @@
-
-const BlogCard = ({ title, desc, tags , readTime}:{title:string,desc:string,tags:string[], readTime:string}) => {
+import Link from "next/link"
+const BlogCard = ({ title, desc, tags , readTime,link}:{title:string,desc:string,tags:string[], readTime:string,link:string}) => {
   return (
-    <section className=" rounded-lg card-style2 border-t-4 border-t-[#272A3C]  font-sans">
+    <Link href={link} className=" rounded-lg card-style2 border-t-4 border-t-[#272A3C]  font-sans">
       <div className="flex flex-col items-start justify-center space-x-0 md:items-center md:space-x-3">
         <div>
           {/* heading */}
@@ -28,7 +28,7 @@ const BlogCard = ({ title, desc, tags , readTime}:{title:string,desc:string,tags
       </div>
 
 
-    </section>
+    </Link>
   );
 };
 
