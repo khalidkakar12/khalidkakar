@@ -19,16 +19,18 @@ export const experinceSection = [
 
 export const blogCards = [
   {
-    title: "Features of React V19",
-    desc: " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto minima autem magnam quod dolor reprehenderit fugiat  ",
-    tags: ["#developer", "#javascript", "#reactjs"],
-    readTime: "3 min read",
+    title: "Optimizing performance in Reactjs applications",
+    desc: "One of the greatest strengths of React is its component-based architecture, which allows developers to build modular and reusable pieces of UI. ",
+    tags: ["#webdev", "#reactjs", "#javascript"],
+    readTime: "7 min read",
+    link:'https://dev.to/khalidkhankakar/optimizing-performance-in-react-applications-59k0'
   },
   {
-    title: "Vercel ship conf",
-    desc: " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto minima autem magnam quod dolor reprehenderit fugiat  ",
-    tags: ["#vercel", "#nextjs", "#reactjs"],
-    readTime: "4 min read",
+    title: "Building reusable components in Reactjs",
+    desc: "One of the greatest strengths of React is its component-based architecture, which allows developers to build modular and reusable pieces of UI. ",
+    tags: ["#webdev", "#reactjs", "#nextjs"],
+    readTime: "10 min read",
+    link:'https://dev.to/khalidkhankakar/building-reusable-components-in-react-4mj0'
   },
 ];
 
@@ -48,10 +50,6 @@ export const devTechs = [
   {
     name: "TypeScript",
     img: "/typescript.png",
-  },
-  {
-    name: "Docker",
-    img: "/docker.png",
   },
   {
     name: "NodeJs",
@@ -93,8 +91,8 @@ export const projectCardsArr = [
     projectExplain:
       "I successfully developed a roboust social media project leveraging NextJS, ReactJS and Tailwind CSS with Appwirte as the database. This cutting edge platform enables user to perform comprehensive CRUD operations on posts, empowering them to create, save and manage content with ease. This project showcases my expertise in buiding scalable, efficent, and user-friendly applications.",
     projectImg: "/nextjs.png",
-    projectLink: "/",
-    projectCodeLink: "/",
+    projectLink: "https://iscroll-seven.vercel.app/",
+    projectCodeLink: "https://github.com/khalidkhankakar/iscroll",
     projectTechs: ["/nextjs.png", "/appwrite.png", "/reactjs.png","/tailwindcss.png"],
   },
   {
@@ -102,8 +100,8 @@ export const projectCardsArr = [
     projectExplain:
       "I build the iconic Stack Overflow platform as 'Dev Overflow', mirroring its comprehensive functionality. Questions and Answers creation, Voting system (upvote/downvote) for questions and answers, Answer submission, Advance search functionality with robust filtering capabilities, comprehensive user profiles, secured by Clerk authentication, MongoDB as the database backbone and more advance functionalities. ",
     projectImg: "/git.png",
-    projectLink: "/",
-    projectCodeLink: "/",
+    projectLink: "https://codeoverflow-five.vercel.app/",
+    projectCodeLink: "https://github.com/khalidkhankakar/codeoverflow",
     projectTechs: ["/nextjs.png", "/typescript.png", "/reactjs.png", "/mongodb.png","/tailwindcss.png"],
   },
 
@@ -113,17 +111,17 @@ export const projectCardsArr = [
 export const socialContacts =[
   {
     name:'Linkedin',
-    link:'/',
+    link:'www.linkedin.com/in/khalid-khan-kakar',
     img:'/icons/linkedin.svg'
   },
   {
-    name:'X',
-    link:'/',
+    name:'Dev',
+    link:'https://dev.to/khalidkhankakar',
     img:'/icons/twitter.svg'
   },
   {
     name:'Github',
-    link:'/',
+    link:'https://github.com/khalidkhankakar',
     img:'/icons/github.svg'
   },
   {
