@@ -16,6 +16,7 @@ const Blog = () => {
             desc,
             tags,
             readTime,
+            link
           }) => (
             <BlogCard
               key={title}
@@ -23,6 +24,7 @@ const Blog = () => {
               desc={desc}
               tags={tags}
               readTime={readTime}
+              link={link}
             />
           ),
         )}
