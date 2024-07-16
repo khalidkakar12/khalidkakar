@@ -10,7 +10,7 @@ const About = () => {
       <div className="rounded-xl  px-4 py-3 flex flex-col items-center justify-center">
         <div className=" relative w-full my-2 ">
           <div className="border-2 w-fit m-auto rounded-full border-[#272A3C] bg-gradient-to-r from-[#0C0E23] to-[#04071D]">
-          <Image src='/profile.webp' width={200} height={200} alt="khalid" className="md:h-40 md:w-40 h-32 w-32 object-contain z-40 rounded-full" />
+          <Image src='/profile.jpg' width={200} height={200} alt="khalid" className="md:h-40 md:w-40 h-32 w-32 object-contain z-40 rounded-full" />
           </div>
           <div className="  w-full h-1 absolute -z-10 top-[50%] bg-gradient-to-r from-[#272a4d] to-[#2c3575] " />
         </div>
